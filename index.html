@@ -13,10 +13,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
 </head>
+
 <!--Body-->
 
 <body>
-  <!--Шапка сайту-->
+
+  <!--Hedear Logo + Menu-->
+
   <header class="header">
     <div class="container container-header">
       <a class="link logo" href="./index.html"><span class="logo-part-txt">Web</span>Studio</a>
@@ -27,21 +30,32 @@
           <li class="item"> <a class="main-nav-link link" href="./contacts.html">Контакти</a></li>
         </ul>
       </nav>
-      <div class="contacts nav-contacts">
-        <a class="contact-email link" href="mailto:info@devstudio.com">
-          <svg class="contact-icon" width="16px" height="12px">
-            <use href="./images/symbol-defs-opt.svg#icon-mail">
-          </svg>info@devstudio.com</a>
-        <a class="contact-tel link" href="tel:+380961111111">
-          <svg class="contact-icon" width="10px" height="16px">
-            <use href="./images/symbol-defs-opt.svg#icon-mobile">
-          </svg>+38 096 111 11 11</a>
-      </div>
+      <ul class="contacts nav-contacts">
+        <li class="nav-contacts-item">
+          <a class="contact-email link" href="mailto:info@devstudio.com">
+            <svg class="contact-icon" width="16px" height="12px">
+              <use href="./images/symbol-defs-opt.svg#icon-mail">
+              </use>
+            </svg>info@devstudio.com
+          </a>
+        </li>
+        <li class="nav-contacts-item">
+          <a class="contact-tel link" href="tel:+380961111111">
+            <svg class="contact-icon" width="10px" height="16px">
+              <use href="./images/symbol-defs-opt.svg#icon-mobile">
+              </use>
+            </svg>+38 096 111 11 11
+          </a>
+        </li>
+      </ul>
     </div>
   </header>
-  <!--Головний контент-->
+
+  <!--Main content-->
   <main>
-    <!--Блок Герой-->
+
+    <!--Hero-->
+
     <section class="hero">
       <div class="container">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
@@ -49,7 +63,9 @@
       </div>
 
     </section>
-    <!--Особливості студії-->
+
+    <!--Benefits-->
+
     <section class="benefits">
       <div class="container">
         <ul class="benefits-list list">
@@ -92,7 +108,9 @@
         </ul>
       </div>
     </section>
-    <!---Чим займається студія-->
+
+    <!---About-->
+
     <section class="about">
       <div class="container">
         <h2 class="about-title">Чим ми займаємося</h2>
@@ -105,7 +123,7 @@
       </div>
     </section>
 
-    <!--Команда студії-->
+    <!--Team-->
 
     <section class="team">
       <div class="container">
@@ -116,70 +134,86 @@
             <div class="team-list-description">
               <h3 class="team-list-item-title">Ігор Дем'яненко</h3>
               <p class="team-list-item-txt" lang="en">Product Designer</p>
-              <ul class="social-link-list-icons">
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Instagram icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-instagram">
-                  </use>
-                </svg>
-                </a>
-                  </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Twitter icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-twitter">
-                  </use>
-                </svg>
-                </a>
-                  </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Facebook icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-facebook">
-                  </use>
-                </svg>
-                </a>
-                  </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Linkedin icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-linkedin">
-                  </use>
-                </svg>
-                </a>
-                  </li>
+              <ul class="team-social-link-list">
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Instagram icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-instagram">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Twitter">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Twitter icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-twitter">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Facebook">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Facebook icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-facebook">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Linkedin">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Linkedin icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-linkedin">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
               </ul>
           <li class="team-list-item">
             <img class="team-list-item-img" src="./images/team-card-2.jpeg" alt="Ольга Репіна" width="270">
             <div class="team-list-description">
               <h3 class="team-list-item-title">Ольга Репіна</h3>
               <p class="team-list-item-txt" lang="en">Frontend Developer</p>
-              <ul class="social-link-list-icons">
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                   <svg class="social-icon" width="20px" height="20px" aria-label="Instagram icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-instagram">
-                  </use>
-                </svg>
-                </a>
-                 </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Twitter icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-twitter">
-                  </use>
-                </svg>
-                </a>
-                  </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Facebook icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-facebook">
-                  </use>
-                </svg>
-                </a>
-                  </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Linkedin icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-linkedin">
-                  </use>
-                </svg>
-                </a>
-                  </li>
+              <ul class="team-social-link-list">
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Instagram icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-instagram">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Twitter">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Twitter icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-twitter">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Facebook">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Facebook icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-facebook">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Linkedin">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Linkedin icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-linkedin">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
               </ul>
             </div>
           </li>
@@ -188,35 +222,43 @@
             <div class="team-list-description">
               <h3 class="team-list-item-title">Микола Тарасов</h3>
               <p class="team-list-item-txt" lang="en">Marketing</p>
-              <ul class="social-link-list-icons">
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Instagram icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-instagram">
-                  </use>
-                </svg>
-                </a>
-                  </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Twitter icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-twitter">
-                  </use>
-                </svg>
-                </a>
-                  </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Facebook icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-facebook">
-                  </use>
-                </svg>
-                </a>
-                  </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Linkedin icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-linkedin">
-                  </use>
-                </svg>
-                </a>
-                  </li>
+              <ul class="team-social-link-list">
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Instagram icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-instagram">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Twitter">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Twitter icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-twitter">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Facebook">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Facebook icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-facebook">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Linkedin">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Linkedin icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-linkedin">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
               </ul>
             </div>
           </li>
@@ -225,35 +267,43 @@
             <div class="team-list-description">
               <h4 class="team-list-item-title">Михайло Єрмаков</h4>
               <p class="team-list-item-txt" lang="en">UI Designer</p>
-              <ul class="social-link-list-icons">
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Instagram icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-instagram">
-                  </use>
-                </svg>
-                </a>
-                  </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Twitter icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-twitter">
-                  </use>
-                </svg>
-                </a>
-                  </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Facebook icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-facebook">
-                  </use>
-                </svg>
-                </a>
-                  </li>
-                <li class="social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
-                  <svg class="social-icon" width="20px" height="20px" aria-label="Linkedin icon">
-                  <use href="./images/symbol-defs-opt.svg#icon-linkedin">
-                  </use>
-                </svg>
-                </a>
-                  </li>
+              <ul class="team-social-link-list">
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Instagram icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-instagram">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Twitter">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Twitter icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-twitter">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Facebook">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Facebook icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-facebook">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-list-item">
+                  <a class="team-social-icon-link" href="" target="_blank" rel="noopener noreferrer"
+                    aria-label="Linkedin">
+                    <svg class="social-icon" width="20px" height="20px" aria-label="Linkedin icon">
+                      <use href="./images/symbol-defs-opt.svg#icon-linkedin">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
               </ul>
             </div>
           </li>
@@ -264,38 +314,66 @@
 
     <section class="clients">
       <div class="container">
-      <h1 class="clients-title">Постійні клієнти</h1>
-      <ul class="clients-list">
-        <li class="clients-list-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Logo Client 1"><svg class="clients-icons" width="106px" height="60px">
-            <use href="./images/symbol-defs-opt.svg#icon-logo1"></use>
-          </svg></a>
-        </li>
-        <li class="clients-list-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Logo Client 2"><svg class="clients-icons" width="106px" height="60px">
-            <use href="./images/symbol-defs-opt.svg#icon-logo2"></use>
-          </svg></a>
-           
-        </li>
-        <li class="clients-list-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Logo Client 3"><svg class="clients-icons" width="106px" height="60px">
-            <use href="./images/symbol-defs-opt.svg#icon-logo3"></use>
-          </svg></a>
-           
-        </li>
-        <li class="clients-list-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Logo Client 4"><svg class="clients-icons" width="106px" height="60px">
-            <use href="./images/symbol-defs-opt.svg#icon-logo4"></use>
-          </svg></a>
-           
-        </li>
-        <li class="clients-list-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Logo Client 5"><svg class="clients-icons" width="106px" height="60px">
-            <use href="./images/symbol-defs-opt.svg#icon-logo5"></use>
-          </svg></a>
-           
-        </li>
-        <li class="clients-list-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Logo Client 6"><svg class="clients-icons" width="106px" height="60px">
-            <use href="./images/symbol-defs-opt.svg#icon-logo6"></use>
-          </svg></a>
-           
-        </li>
-      </ul>
+        <h1 class="clients-title">Постійні клієнти</h1>
+        <ul class="clients-list">
+          <li class="clients-list-item">
+            <a class="clients-list-link" href="" target="_blank" rel="noopener noreferrer" aria-label="Logo Client 1">
+              <svg class="clients-icons" width="106px" height="60px">
+                <use href="./images/symbol-defs-opt.svg#icon-logo1">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="clients-list-item">
+            <a class="clients-list-link" href="" target="_blank" rel="noopener noreferrer" aria-label="Logo Client 2">
+              <svg class="clients-icons" width="106px" height="60px">
+                <use href="./images/symbol-defs-opt.svg#icon-logo2">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="clients-list-item">
+            <a class="clients-list-link" href="" target="_blank" rel="noopener noreferrer"
+              aria-label="Logo Client 3">
+              <svg class="clients-icons" width="106px" height="60px">
+                <use href="./images/symbol-defs-opt.svg#icon-logo3">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="clients-list-item">
+            <a class="clients-list-link" href="" target="_blank" rel="noopener noreferrer"
+              aria-label="Logo Client 4">
+              <svg class="clients-icons" width="106px" height="60px">
+                <use href="./images/symbol-defs-opt.svg#icon-logo4">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="clients-list-item">
+            <a class="clients-list-link" href="" target="_blank" rel="noopener noreferrer"
+              aria-label="Logo Client 5">
+              <svg class="clients-icons" width="106px" height="60px">
+                <use href="./images/symbol-defs-opt.svg#icon-logo5">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="clients-list-item">
+            <a class="clients-list-link" href="" target="_blank" rel="noopener noreferrer"
+              aria-label="Logo Client 6">
+              <svg class="clients-icons" width="106px" height="60px">
+                <use href="./images/symbol-defs-opt.svg#icon-logo6">
+                </use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
@@ -305,38 +383,53 @@
   <footer class="footer">
     <div class="container footer-column">
       <div class="footer-first-column">
-      <a class="link footer-logo" href="./index.html"><span class="logo-part-txt">Web</span>Studio</a>
-      <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
-      <a class="footer-nav-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="footer-nav-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="link footer-logo" href="./index.html"><span class="logo-part-txt">Web</span>Studio</a>
+        <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
+        <a class="footer-nav-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="footer-nav-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
       </div>
       <div>
-      <h1 class="footer-social-title">Приєднуйтеся</h1>
-      <ul class="footer-social-list">
-        <li class="footer-social-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-          <svg class="footer-social-icon" width="20px" height="20px">
-            <use href="./images/symbol-defs-opt.svg#icon-instagram"></use>
-          </svg>
-        </a></li>
-        <li class="footer-social-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-          <svg class="footer-social-icon" width="20px" height="20px">
-            <use href="./images/symbol-defs-opt.svg#icon-twitter"></use>
-          </svg>
-        </a></li>
-        <li class="footer-social-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-          <svg class="footer-social-icon" width="20px" height="20px">
-            <use href="./images/symbol-defs-opt.svg#icon-facebook"></use>
-          </svg>
-        </a></li>
-        <li class="footer-social-item"><a href="" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
-          <svg class="footer-social-icon" width="20px" height="20px">
-            <use href="./images/symbol-defs-opt.svg#icon-linkedin"></use>
-          </svg>
-        </a></li>
-      </ul>
+        <h1 class="footer-social-title">Приєднуйтеся</h1>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg class="footer-social-icon" width="20px" height="20px">
+                <use href="./images/symbol-defs-opt.svg#icon-instagram">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <svg class="footer-social-icon" width="20px" height="20px">
+                <use href="./images/symbol-defs-opt.svg#icon-twitter">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg class="footer-social-icon" width="20px" height="20px">
+                <use href="./images/symbol-defs-opt.svg#icon-facebook">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
+              <svg class="footer-social-icon" width="20px" height="20px">
+                <use href="./images/symbol-defs-opt.svg#icon-linkedin">
+                </use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    </div>
-    
+
   </footer>
 </body>
 
